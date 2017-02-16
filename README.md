@@ -45,27 +45,26 @@ When you generate files, `gulp` or `gulp --production`
 - - -
 `laravel-elixir` has `autoprefixer` as default which config is in `node_modules/laravel-elixir/Config.js`.
 ```javascript
-        /*
-         |----------------------------------------------------------------
-         | CSS3 Autoprefixing
-         |----------------------------------------------------------------
-         |
-         | When working with any form of CSS, Elixir automatically runs
-         | your file through a CSS autoprefixer, which automatically
-         | adds or removes vendor-specific CSS3 prefixes. Useful!
-         |
-         */
+/*
+ |----------------------------------------------------------------
+ | CSS3 Autoprefixing
+ |----------------------------------------------------------------
+ |
+ | When working with any form of CSS, Elixir automatically runs
+ | your file through a CSS autoprefixer, which automatically
+ | adds or removes vendor-specific CSS3 prefixes. Useful!
+ |
+ */
 
-        autoprefix: {
-            enabled: true,
+autoprefix: {
+    enabled: true,
 
-            // https://www.npmjs.com/package/gulp-autoprefixer#api
-            options:  {
-                browsers: ['last 3 versions', 'ie >= 9'],
-                cascade: false
-            }
-        },
-});
+    // https://www.npmjs.com/package/gulp-autoprefixer#api
+    options:  {
+        browsers: ['last 2 versions'],
+        cascade: false
+    }
+},
 ```
 ## LiveReload on developing
 Convenient LiveReload execution during development is `gulp watch`.
