@@ -2,7 +2,7 @@ This package makes it easy to create homepage work using LiveReload, angularJs, 
 
 ## Features
 - Shareable Header and Footer
-- Simplify script and css
+- Simplify script and sass
 - LiveReload on developing
 
 ## Before Start
@@ -21,7 +21,7 @@ You see these DOMs
 in `index.html`. Those are custom DOMs by angularJS directive components. Module declaration is in `resources/assets/js/angular-static-directives.js`.
 and DOMs content declaration is in `templates/`. These DOMs only applies within the DOMs that made the angularJS directive declaration `ng-app ="body"` (check `<body ng-app="body">` in `index.html`)
 
-## Simplify script and css
+## Simplify script and sass
 Simplify depends on `gulp` and `laravel-elixir`. See `gulpfile.js`.
 ```javascript
 elixir(function(mix) {
