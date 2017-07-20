@@ -8,6 +8,7 @@
     "http-server": "^0.6.1",
     "imagesloaded": "^4.1.3",
     "laravel-elixir-serve": "^0.1.1",
+    "lazysizes": "^4.0.0-rc3",
     "rellax": "^1.0.0",
     "scrollreveal": "^3.3.6",
     "waypoints": "^4.0.1"
