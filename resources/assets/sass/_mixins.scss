@@ -1,0 +1,13 @@
+$text-black: #515151;
+
+@mixin maxWidth767 {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin maxWidth543 {
+    @media screen and (max-width: 543px) {
+        @content;
+    }
+}
