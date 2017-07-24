@@ -34,4 +34,11 @@ angular.module('body')
             templateUrl: '/templates/dummy-text.html',
             replace: true
         }
+    })
+    .directive('privacyPolicy' ,function() {
+        return {
+            restrict: 'E',
+            templateUrl: '/templates/privacy-policy.html',
+            replace: true
+        }
     });
