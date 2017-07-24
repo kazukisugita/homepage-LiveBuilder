@@ -41,4 +41,11 @@ angular.module('body')
             templateUrl: '/templates/privacy-policy.html',
             replace: true
         }
+    })
+    .directive('securityPolicy' ,function() {
+        return {
+            restrict: 'E',
+            templateUrl: '/templates/security-policy.html',
+            replace: true
+        }
     });

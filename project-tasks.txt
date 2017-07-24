@@ -1,0 +1,5 @@
+// change to bootstrap 4 x
+// change to angularJS 1.6
+// change DOMs
+// make Custom Directives ('static-header, static-footer') x
+//
