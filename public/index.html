@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-
     <meta name="robots" content="noindex">
     <meta name="googlebot" content="noindex">
 
@@ -14,24 +13,65 @@
 
     <link href="/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
     <link href="/css/styles.css" rel="stylesheet">
+    <style>
+        #video-container {
+            background-color: #000011;
+        }
+        #heroVideo {
+            position: absolute;
+            /* Vertical and Horizontal center*/
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        video {
+            width: 100%;
+        }
+    </style>
 </head>
 <body ng-app="body" class="indexHtml">
 
     <static-header></static-header>
 
     <div class="wrapper">
-        <div class="container">
-            <section class="section">
-                <article class="overview">
-                    <h2>Hello World</h2>
-                    <p>Hello World</p>
-                </article>
-            </section>
-        </div>
-    </div>
+
+        <section class="section section-index-hero container-fluid">
+            <div class="video-container" id="video-container">
+                <video autoplay muted loop id="heroVideo" poster="">
+                    <!--<source src="video/World.mp4" type="video/mp4" />-->
+                </video>
+            </div>
+        </section>
+
+        <section class="section container-fluid" style="background-color: #daeeff">
+            <article class="article-content mx-auto">
+                <h2>Hello World</h2>
+                <p>Hello World</p>
+            </article>
+        </section>
+
+        <section class="section container-fluid" style="background-color: #daeeff">
+            <article class="article-content mx-auto">
+                <h2>Hello World</h2>
+                <p>Hello World</p>
+            </article>
+        </section>
+
+        <section class="section container-fluid" style="background-color: #daeeff">
+            <article class="article-content mx-auto">
+                <h2>Hello World</h2>
+                <p>Hello World</p>
+            </article>
+        </section>
+
+    </div><!-- wrapper -->
 
     <static-footer></static-footer>
 
-<script src="/js/fundamentals.js"></script>
+    <script src="/js/fundamentals.js"></script>
+    <script src="/js/video/isMobile.min.js"></script>
+    <script src="/js/video/bideo.js"></script>
+    <script src="/js/video/main.js"></script>
+
 </body>
 </html>
