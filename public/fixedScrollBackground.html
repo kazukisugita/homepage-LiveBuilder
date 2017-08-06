@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <title></title>
+
+    <link href="/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="/css/styles.css" rel="stylesheet">
+    <style>
+        body, html, main {
+            /* important */
+            height: 100%;
+        }
+
+        .cd-fixed-bg {
+            min-height: 100%;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .cd-fixed-bg.cd-bg-1 {
+            background-image: url("/img/1.jpg");
+        }
+        .cd-fixed-bg.cd-bg-2 {
+            background-image: url("/img/2.jpg");
+        }
+        .cd-fixed-bg.cd-bg-3 {
+            background-image: url("/img/3.jpg");
+        }
+        .cd-fixed-bg.cd-bg-4 {
+            background-image: url("/img/4.jpg");
+        }
+
+        .cd-scrolling-bg {
+            min-height: 100%;
+        }
+        .cd-container {
+            min-height: 600px;
+        }
+        h1 {
+            display: inline-block;
+            height: 400px;
+            text-align: center;
+            /*background-color: rgba(255,255,255,0.9);*/
+        }
+    </style>
+</head>
+<body ng-app="body" class="indexHtml">
+
+    <static-header></static-header>
+
+    <div class="wrapper">
+
+        <main>
+            <div class="cd-fixed-bg cd-bg-1">
+                <!--<h1>cd-bg-1</h1>-->
+                <div class="cd-scrolling-bg cd-color-2">
+                    <div class="cd-container">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi...
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cd-scrolling-bg cd-color-2">
+                <div class="cd-container">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi...
+                    </p>
+                </div>
+            </div>
+
+            <div class="cd-fixed-bg cd-bg-2">
+                <h1>cd-bg-2</h1>
+            </div>
+
+            <!--<div class="cd-scrolling-bg cd-color-2">-->
+                <!--<div class="cd-container">-->
+                    <!--<p>-->
+                        <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi...-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <div class="cd-fixed-bg cd-bg-3">
+                <h1>cd-bg-2</h1>
+            </div>
+
+            <!--<div class="cd-scrolling-bg cd-color-2">-->
+                <!--<div class="cd-container">-->
+                    <!--<p>-->
+                        <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi...-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <div class="cd-fixed-bg cd-bg-4">
+                <h1>cd-bg-2</h1>
+            </div>
+
+            <div class="cd-scrolling-bg cd-color-2">
+                <div class="cd-container">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi...
+                    </p>
+                </div>
+            </div>
+        </main>
+
+    </div><!-- wrapper -->
+
+    <static-footer></static-footer>
+
+    <script src="/js/fundamentals.js"></script>
+
+</body>
+</html>
